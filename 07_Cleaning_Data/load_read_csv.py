@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Read the file into a DataFrame: df
-df = pd.read_csv('dob_job_application_filings_subset.csv')
+df = pd.read_csv('/Users/apple/Documents/Online_Courses/DataCamp_Excercise/Datasets/dob_job_application_filings_subset.csv')
 
 # Print the head and tail of df
 print(df.head())
