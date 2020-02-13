@@ -5,6 +5,8 @@ import pandas as pd
 # Read the CSV file into a DataFrame: df
 df = pd.read_csv('/Users/apple/Documents/Online_Courses/DataCamp_Excercise/21_SupervisedLearning_scikitLearn/gapminder.csv')
 
+print(df.shape)
+print(df.info())
 # Create arrays for features and target variable
 y = df['life'].values
 X = df['fertility'].values
