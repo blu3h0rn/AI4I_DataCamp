@@ -30,7 +30,7 @@ print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
 
 
-
+# ----------------------ROC-------------------------------------
 # Compute predicted probabilities: y_pred_prob
 y_pred_prob = logreg.predict_proba(X_test)[:,1]
 
