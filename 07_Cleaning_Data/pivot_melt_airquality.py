@@ -1,4 +1,6 @@
 import pandas as pd
+import os
+os.chdir('/Users/apple/Documents/Online_Courses/DataCamp_Excercise/07_Cleaning_Data/')
 airquality = pd.read_csv('airquality.csv')
 
 # Print the head of airquality
